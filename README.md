@@ -1,34 +1,51 @@
-# 🧹 ADB Bloatware Flusher
-<img width="122" height="128" alt="not-a-bug" src="https://github.com/user-attachments/assets/4a0bebd5-3154-41ed-a05a-fe2c961469ff" />
-
+# 📱 ADB Bloatware Flusher v1.0.0
 
 **ADB Bloatware Flusher** is a simple but powerful Python tool that lets you safely uninstall unwanted apps (bloatware) from any Android device using ADB — all without rooting.
 
-Remove the clutter. Reclaim your device.
+Clean. Fast. Controlled. Safe.
+
+--- 
 
 Why BloatFlusher?
 Because most Android devices come packed with apps you don’t need — using up space, draining battery, and cluttering your system. BloatFlusher gives you a clean, simple way to remove them safely using ADB — no root, no fuss, just control.
 
 ---
 
-## 🚀 Features
+## ⚙️ Features
 
--  Connects to your Android device via ADB
--  **Safe Mode**: Shows only removable bloatware (no critical system apps)
--  **Advanced Mode**: Lists all apps — full control, use with caution
--  Search & filter packages
--  Uninstall single or multiple apps by number or range
--  Red/Green themed CLI for clear feedback
--  Visual uninstall progress bar
--  Auto-generates uninstall logs
+| Feature                         | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 📱 **Safe Bloatware Removal**   | Removes non-essential apps without touching core system packages.          |
+| 💀 **Advanced Cleaning**        | Full package list with full control — for power users only.                |
+| 🔍 **Search & Filter**          | Search apps by keyword or filter by manufacturer-specific packages.        |
+| 📊 **Range-based Uninstall**    | Uninstall multiple apps with input like `1,2,5-9`.                         |
+| 📁 **Log Output**               | All removed packages are logged to `adb_uninstall_log.txt`.                |
+| 🎨 **Red/Green CLI UI**         | Stylish command-line interface using clear color feedback.                 |
+| 🛠️ **No Root Needed**          | Uses ADB for clean and safe uninstallations without root access.           |
 
 ---
 
-## How It Works
+## 💻 Requirements
+
+- Python 3.x
+- ADB installed and added to PATH
+- USB Debugging enabled on your Android device
+- Python package: `colorama`
+
+---
+
+## Installation
+```
+git clone https://github.com/your-username/adb-bloatware-flusher.git
+cd bloatflusher
+python3 bloatflusher.py
+```
+
+## How to Use
 - Connect your Android phone via USB
 - Run the tool:
 ```python
-python adb_bloat_flusher.py
+python3 bloatflusher.py
 ```
 - Choose a mode:
   a) Safe Mode (recommended for most users)
@@ -39,13 +56,29 @@ python adb_bloat_flusher.py
 
 ---
 
-## Installation
+## 🛡️ Disclaimer
+⚠️ This tool is intended for educational and personal use.
+⚠️ Removing core system apps (especially in Advanced Mode) can cause instability or boot issues.
+⚠️ Always back up your device before using.
 
-## 💻 Requirements
+The developer is not responsible for any damage caused by improper use.
 
-- Python 3.x
-- ADB installed and added to PATH
-- USB Debugging enabled on your Android device
-- Python package: `colorama`
+---
+
+## 🙌 Contributing
+Contributions are welcome!
+Report bugs, suggest features, or submit pull requests via GitHub.
+
+---
+
+## 📄 License
+This project is released under the MIT License.
+
+---
+
+## 💬 Final Thoughts
+ADB Bloatware Flusher was created to help Android users take back control of their devices — quickly and safely.
+
+💪 Less bloat. More performance. Full control.
 
 
