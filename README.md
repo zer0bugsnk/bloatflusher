@@ -1,5 +1,6 @@
 # 🧹 ADB Bloatware Flusher
-<img width="480" height="270" alt="Bloatware-480x270" src="https://github.com/user-attachments/assets/8cc73b1b-894b-4a99-84a6-57bf462b0b60" />
+<img width="122" height="128" alt="not-a-bug" src="https://github.com/user-attachments/assets/4a0bebd5-3154-41ed-a05a-fe2c961469ff" />
+
 
 **ADB Bloatware Flusher** is a simple but powerful Python tool that lets you safely uninstall unwanted apps (bloatware) from any Android device using ADB — all without rooting.
 
