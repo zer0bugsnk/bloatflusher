@@ -38,6 +38,7 @@ Because most Android devices come packed with apps you don’t need — using up
 ```
 git clone https://github.com/your-username/adb-bloatware-flusher.git
 cd bloatflusher
+pip install -r requirements.txt
 python3 bloatflusher.py
 ```
 
