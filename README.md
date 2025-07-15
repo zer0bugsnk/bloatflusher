@@ -6,7 +6,7 @@ Clean. Fast. Controlled. Safe.
 
 --- 
 
-Why BloatFlusher?
+## Why BloatFlusher?
 Because most Android devices come packed with apps you don’t need — using up space, draining battery, and cluttering your system. BloatFlusher gives you a clean, simple way to remove them safely using ADB — no root, no fuss, just control.
 
 ---
