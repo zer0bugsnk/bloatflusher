@@ -36,7 +36,7 @@ Because most Android devices come packed with apps you don’t need — using up
 
 ## Installation
 ```
-https://github.com/zer0bugsnk/bloatflusher.git
+git clone https://github.com/zer0bugsnk/bloatflusher.git
 cd bloatflusher
 pip install -r requirements.txt
 python3 bloatflusher.py
