@@ -58,9 +58,9 @@ python3 bloatflusher.py
 ---
 
 ## 🛡️ Disclaimer
-⚠️ This tool is intended for educational and personal use.
-⚠️ Removing core system apps (especially in Advanced Mode) can cause instability or boot issues.
-⚠️ Always back up your device before using.
+- ⚠️ This tool is intended for educational and personal use.
+- ⚠️ Removing core system apps (especially in Advanced Mode) can cause instability or boot issues.
+- ⚠️ Always back up your device before using.
 
 The developer is not responsible for any damage caused by improper use.
 
